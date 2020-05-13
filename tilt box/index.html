@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgbx">
+                <img src="../flipping Card/img/IMG-20200409-WA0051.jpg?s=200" alt="">
+            </div>
+            <div class="contentbx">
+                <h2>Info</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="../flipping Card/img/land1.png?s=10" alt="">
+            </div>
+            <div class="contentbx">
+                <h2>Info</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".box"), {
+            max: 25,
+            speed: 400
+        });
+        
+    </script>
+</body>
+
+
+</html>
